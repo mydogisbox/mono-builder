@@ -24,6 +24,7 @@ cd ..
 echo "Install fsharp"
 git clone https://github.com/fsharp/fsharp
 cd fsharp
+git checkout tags/4.1.34
 export PATH=/app/mono/bin:$PATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/app/mono/lib/
 export PKG_CONFIG_PATH=/app/mono/lib/pkgconfig/
